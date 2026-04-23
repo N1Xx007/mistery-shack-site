@@ -1,2 +1,22 @@
-# mistery-shack-site
-Site estático inspirado na Mystery Shack (Gravity Falls), desenvolvido com HTML e CSS. O projeto simula uma loja de curiosidades com catálogo de produtos, páginas interligadas e uma interface com identidade visual misteriosa e retrô, incluindo elementos secretos e interações escondidas.
+# Mystery Shack - Loja de Curiosidades
+
+Site estatico inspirado na Mystery Shack de *Gravity Falls*, desenvolvido com HTML e CSS.
+
+## Estrutura
+
+- `index.html`
+- `pages/catalogo.html`
+- `pages/cadastro.html`
+- `pages/produto-*.html`
+- `css/style.css`
+- `imagens/`
+
+## Como abrir
+
+1. Abra o arquivo `index.html` no navegador.
+2. Navegue pelas paginas pelos links do site.
+
+## Observacoes
+
+- Projeto feito sem JavaScript.
+- O formulario é apenas ilustrativo.
