@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mystery Shack, a loja de curiosidades mais misteriosa de Gravity Falls.">
+  <title>Mystery Shack | Loja de Curiosidades</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <div class="wood-grain-overlay"></div>
+
+    <!-- Início do cabeçalho -->
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Voltar para a página inicial">
+        <span class="brand-mark">◉</span>
+        <span class="brand-name">MYSTERY SHACK</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="index.html" class="nav-link active">Início</a>
+        <a href="pages/catalogo.html" class="nav-link">Produtos</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#contato" class="nav-link">Contato</a>
+        <a href="pages/cadastro.html" class="nav-link nav-cta">Cadastro</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Seção principal da home -->
+      <section class="hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow">Turistas curiosos, artefatos duvidosos e descontos improváveis</p>
+          <h1>O lugar mais misterioso de Gravity Falls</h1>
+          <p class="hero-text">
+            Relíquias improváveis, diários suspeitos e lembranças de uma cabana que
+            transforma qualquer visita em uma investigação.
+          </p>
+
+          <!-- Área de botões principais -->
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="pages/catalogo.html">Explorar Mistérios</a>
+            <a class="btn btn-secondary" href="pages/produto-diario-de-investigacao.html">Ver Artefato em Destaque</a>
+          </div>
+        </div>
+
+        <!-- Card de destaque -->
+        <aside class="hero-card" aria-label="Artefato em destaque">
+          <div class="card-label">Arquivo nº 03</div>
+          <img
+            src="imagens/diario-investigacao.png"
+            alt="Diário antigo aberto sobre uma mesa de madeira"
+          >
+          <div class="hero-card-content">
+            <h2>Diário de Investigação #3</h2>
+            <p>Contém pistas, símbolos e anotações de campo que jamais deveriam cair em mãos curiosas.</p>
+            <div class="price-row">
+              <span class="price-tag">R$ 199,99</span>
+              <a class="text-link" href="pages/produto-diario-de-investigacao.html">Examinar detalhes</a>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Elemento decorativo -->
+        <div class="cipher-mark" aria-hidden="true">
+          <svg viewBox="0 0 100 100" role="img">
+            <path d="M50 10 L90 85 L10 85 Z"></path>
+            <circle cx="50" cy="55" r="8"></circle>
+            <path d="M40 55 Q50 45 60 55"></path>
+          </svg>
+        </div>
+      </section>
+
+      <!-- Seção de produtos em destaque -->
+      <section class="section-block">
+        <div class="section-heading">
+          <p class="eyebrow">Coleção da Semana</p>
+          <h2>Produtos Suspeitos</h2>
+          <p>Uma pequena amostra dos itens mais cobiçados, improváveis e levemente amaldiçoados da loja.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card card-odd">
+            <div class="card-badge">Raro</div>
+            <img
+              src="imagens/diario-investigacao.png"
+              alt="Caderno antigo com páginas gastas"
+            >
+            <div class="product-card-body">
+              <h3>Diário de Investigação #3</h3>
+              <p>Segredos codificados, mapas e relatos que nunca foram explicados.</p>
+              <div class="product-meta">
+                <span class="price-tag">R$ 199,99</span>
+                <a class="text-link" href="pages/produto-diario-de-investigacao.html">Ver produto</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card card-even">
+            <div class="card-badge">Popular</div>
+            <img
+              src="imagens/fez-tio-stan.png"
+              alt="Gorro vermelho com símbolo bordado"
+            >
+            <div class="product-card-body">
+              <h3>Fez do Tio Stan</h3>
+              <p>Estilo duvidoso, carisma incontestável e autenticidade quase garantida.</p>
+              <div class="product-meta">
+                <span class="price-tag">R$ 45,00</span>
+                <a class="text-link" href="pages/produto-fez-tio-stan.html">Ver produto</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card card-odd">
+            <div class="card-badge">Amaldiçoado</div>
+            <img
+              src="imagens/estatua-triangulo.png"
+              alt="Estátua triangular decorativa em ambiente escuro"
+            >
+            <div class="product-card-body">
+              <h3>Estátua do Triângulo</h3>
+              <p>Para colecionadores que não se incomodam em sentir olhares vindos das sombras.</p>
+              <div class="product-meta">
+                <span class="price-tag">R$ 666,00</span>
+                <a class="text-link" href="pages/produto-estatua-triangulo.html">Ver produto</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card card-even">
+            <div class="card-badge">Novo</div>
+            <img
+              src="imagens/olho-tudo-ve.png"
+              alt="Amuleto metálico em forma de olho"
+            >
+            <div class="product-card-body">
+              <h3>Olho que Tudo Vê</h3>
+              <p>Amuleto ideal para quem quer enxergar além da fumaça e dos rumores.</p>
+              <div class="product-meta">
+                <span class="price-tag">R$ 29,90</span>
+                <a class="text-link" href="pages/produto-olho-tudo-ve.html">Ver produto</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-actions">
+          <a class="btn btn-primary" href="pages/catalogo.html">Abrir Catálogo Completo</a>
+        </div>
+      </section>
+
+      <!-- Seção sobre a loja -->
+      <section class="story-section" id="sobre">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Sobre a Cabana</p>
+          <h2>Uma armadilha turística com pedigree sobrenatural</h2>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <h3>Nossa História</h3>
+            <p>
+              Fundada para impressionar curiosos e lucrar com o inexplicável, a Mystery Shack
+              virou ponto obrigatório para quem visita Gravity Falls em busca de lendas, códigos
+              secretos e lembranças excêntricas.
+            </p>
+          </article>
+
+          <article class="story-card">
+            <h3>O que Vendemos</h3>
+            <p>
+              Diários, amuletos, réplicas, souvenires místicos e objetos que talvez tenham uma
+              história mais estranha do que o anúncio descreve.
+            </p>
+          </article>
+
+          <article class="story-card">
+            <h3>Por que Confiar?</h3>
+            <p>
+              Porque nossos preços baixos são quase tão lendários quanto os segredos guardados
+              atrás do balcão. Quase.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Seção de contato -->
+      <section class="contact-section" id="contato">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Contato</p>
+          <h2>Envie um sinal para a cabana</h2>
+          <p>Sem JavaScript, sem truques: apenas caminhos diretos para quem quer visitar, escrever ou se cadastrar.</p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>Endereço</h3>
+            <p>Floresta Norte, Gravity Falls, Oregon</p>
+            <p>Cabana de madeira com placas suspeitas e fila de turistas intrigados.</p>
+          </article>
+
+          <article class="contact-card">
+            <h3>Mensagens</h3>
+            <p><a href="mailto:contato@mysteryshack.com">contato@mysteryshack.com</a></p>
+            <p><a href="mailto:investigacao@mysteryshack.com">investigacao@mysteryshack.com</a></p>
+          </article>
+
+          <article class="contact-card">
+            <h3>Próximo Passo</h3>
+            <p>Quer receber novidades dos artefatos? Entre para o cadastro da loja.</p>
+            <a class="btn btn-secondary btn-block" href="pages/cadastro.html">Ir para Cadastro</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Mystery Shack Industries. Sem reembolsos, sem explicações completas.</p>
+      <p class="footer-code">ZUBSWH LV ZDWFKLQJ</p>
+    </footer>
+  </div>
+</body>
+</html>

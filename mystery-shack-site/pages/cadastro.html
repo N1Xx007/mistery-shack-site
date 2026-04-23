@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadastro da Mystery Shack.">
+  <title>Cadastro | Mystery Shack</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <div class="wood-grain-overlay"></div>
+
+    <!-- Início do cabeçalho -->
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="Voltar para a página inicial">
+        <span class="brand-mark">◉</span>
+        <span class="brand-name">MYSTERY SHACK</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="../index.html" class="nav-link">Início</a>
+        <a href="catalogo.html" class="nav-link">Produtos</a>
+        <a href="../index.html#sobre" class="nav-link">Sobre</a>
+        <a href="../index.html#contato" class="nav-link">Contato</a>
+        <a href="cadastro.html" class="nav-link nav-cta active">Cadastro</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Seção de abertura da página -->
+      <section class="page-hero">
+        <div class="page-hero-copy">
+          <p class="eyebrow">Cadastro de Visitantes</p>
+          <h1>Entre para o arquivo da cabana</h1>
+          <p>
+            Formulário simples, bonito e compatível com o trabalho: apenas HTML e CSS,
+            com navegação funcional e visual alinhado à identidade do projeto.
+          </p>
+        </div>
+
+        <div class="page-kicker">
+          Benefícios: novidades, artefatos em destaque e rumores recém-chegados da floresta.
+        </div>
+      </section>
+
+      <!-- Seção principal do formulário -->
+      <section class="page-main">
+        <div class="form-layout">
+          <article class="form-panel">
+            <p class="eyebrow">Ficha de Inscrição</p>
+            <h2>Cadastre-se para receber novidades</h2>
+            <p>Preencha os campos abaixo para entrar na lista de visitantes ilustres da Mystery Shack.</p>
+
+            <!-- Formulário de cadastro -->
+            <form action="../index.html" method="get">
+              <div class="form-field">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+              </div>
+
+              <div class="form-field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+              </div>
+
+              <div class="form-field">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Crie uma senha secreta" required>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Concluir Cadastro</button>
+            </form>
+          </article>
+
+          <!-- Blocos de apoio -->
+          <aside class="info-stack">
+            <article class="info-card">
+              <h3>Por que se cadastrar?</h3>
+              <p>
+                Para acompanhar novos itens do catálogo, ofertas suspeitamente vantajosas
+                e avisos sobre eventos especiais na loja.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>Links Úteis</h3>
+              <a class="text-link" href="catalogo.html">Voltar ao catálogo</a><br>
+              <a class="text-link" href="../index.html#contato">Falar com a cabana</a>
+            </article>
+
+            <article class="info-card">
+              <h3>Observação</h3>
+              <p>
+                Este formulário foi mantido propositalmente simples para atender ao requisito
+                de uso exclusivo de HTML e CSS.
+              </p>
+            </article>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Mystery Shack Industries. Seus dados estão seguros. Provavelmente.</p>
+      <p class="footer-code">LISTA CONFIDENCIAL</p>
+    </footer>
+  </div>
+</body>
+</html>
